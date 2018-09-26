@@ -28,7 +28,7 @@ class App extends Component {
 
 	handleCreate = data => {
 		const { information } = this.state;
-		this.setState({
+		this.setState({ // -> rerendering
 			// information: information.concat({
 			//   ...data,
 			//   id: this.id++
